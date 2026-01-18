@@ -1,0 +1,67 @@
+[[mgr.prepend_keymap]]
+on = "l"
+run = "plugin smart-enter"
+desc = "Enter child directory or open file"
+
+[[mgr.prepend_keymap]]
+on = "<Enter>"
+run = "plugin smart-enter"
+desc = "Enter child directory or open file"
+
+[[mgr.prepend_keymap]]
+on = "f"
+run = "plugin fg -- fzf"
+desc = "find file by fzf"
+
+[[mgr.prepend_keymap]]
+on = "F"
+run = "plugin fg -- rg"
+desc = "find file by fzf content"
+
+[[mgr.prepend_keymap]]
+on = "z"
+run = "plugin zoxide"
+desc = "Jump to a directory using zoxide"
+
+[[mgr.prepend_keymap]]
+on = "e"
+run = "open"
+desc = "Extract archive"
+
+[[mgr.prepend_keymap]]
+on = "C"
+run = "plugin ouch"
+desc = "Compress with ouch"
+
+[[mgr.prepend_keymap]]
+on = "<C-d>"
+run = 'shell "ripdrag \"$@\"" --confirm'
+desc = "Drag and Drop"
+
+[[mgr.prepend_keymap]]
+on = "M"
+run = "plugin chmod"
+desc = "Chmod"
+
+# Create new directory with Shift+A
+[[mgr.prepend_keymap]]
+on = "A"
+run = "create --dir"
+desc = "Create a new directory"
+
+# NOTE: Yazi doesn't have "undo" for file operations (copy/move/rename)
+# These are real filesystem changes. To cancel ongoing operations:
+# 1. Press 'w' to open task manager
+# 2. Navigate to the task
+# 3. Press 'x' to cancel it (only works if task hasn't completed yet)
+
+# Task management - cancel ongoing operations
+[[tasks.prepend_keymap]]
+on = "x"
+run = "cancel"
+desc = "Cancel selected tasks"
+
+[[tasks.prepend_keymap]]
+on = "<C-c>"
+run = "cancel"
+desc = "Cancel selected tasks"
