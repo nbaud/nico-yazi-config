@@ -20,6 +20,7 @@ Yazi plugins installed (you need to install each of them for the whole thing to 
 - zoxide
 - smart-enter
 - chmod
+
 ~~- full-border~~
 - ouch
 - video-timeline (from my repo above)
