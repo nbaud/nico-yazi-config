@@ -17,9 +17,9 @@ require("zoxide"):setup({
 	update_db = true,
 })
 
-require("full-border"):setup {
-    type = ui.Border.ROUNDED,
-}
+-- require("full-border"):setup {
+--     type = ui.Border.ROUNDED,
+-- }
 
 -- Helper to get the current Git branch
 local function get_branch()

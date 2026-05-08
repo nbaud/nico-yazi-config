@@ -1,16 +1,28 @@
 # nico-yazi-config
 
-The files I am currently using (18-01-2026) for my yazi configuration. Please note that many software need to be installed for it to all work properly (I might have forgotten a thing or two... let me know if you see something missing ^^)
+NOTE: for best result, please use the terminal `kitty`!
 
-Yazi plugins installed:
+Updated for Yazi 26.5.6 (08-05-2026):
+- necessary fixes in the yazi.toml file
+- removed full-border for now (had some new bugs coming up, may need some fix)
+- adding my own (self-tailored) video previewer to the list (install with the link below)
+
+https://github.com/nbaud/yazi-video-timeline
+
+Also check my YouTube video for the config's explanation:
+
+https://www.youtube.com/watch?v=ko_uKMngU1o
+
+Yazi plugins installed (you need to install each of them for the whole thing to work, but you can customize the list ofc):
 
 - git
 - fg
 - zoxide
 - smart-enter
 - chmod
-- full-border
+~~- full-border~~
 - ouch
+- video-timeline (from my repo above)
 
 Preview and CLI tools:
 
